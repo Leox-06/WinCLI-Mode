@@ -32,17 +32,17 @@ The project relies on modifying a temporary registry key (`HKCU\Software\Microso
 
 ## 🚀 Installation (Automated)
 
-We provide a simple installer script to set everything up for you!
+We provide a simple and safe installer script to set everything up for you!
 
 1. Download the latest release from the **Releases** tab, or clone the repository.
-2. Extract all files into a folder.
-3. Right-click on `Install.ps1` and select **"Run with PowerShell"**.
-4. The script will automatically copy the required files to `C:\CLI` and create shortcuts on your **Desktop** and **Start Menu**.
-> *Note: Windows blocks automatic pinning to the Taskbar for security reasons. To pin WinCLI-Mode to your taskbar, simply search for it in the Start Menu, right-click the shortcut, and select "Pin to taskbar".*
+2. Extract the downloaded ZIP file into a folder.
+3. Double-click on **`Install.bat`**. 
+4. The batch script will automatically copy the required files to `C:\CLI` and generate a shortcut on your **Desktop**.
+> *Note: To pin WinCLI-Mode to your taskbar, simply right-click the Desktop shortcut and select "Pin to taskbar".*
 
 ## 💻 Usage
 
-1. Double-click the **WinCLI Mode** shortcut on your Desktop or Start Menu.
+1. Double-click the **WinCLI Mode** shortcut on your Desktop.
 2. The system will confirm the activation and log you out.
 3. Log back in with your Windows account.
 4. Instead of the desktop, a full-screen command-line environment will launch.
